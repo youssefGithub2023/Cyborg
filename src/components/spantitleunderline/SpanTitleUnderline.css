@@ -1,0 +1,4 @@
+.span-title-underline {
+    color: var(--color-lightest);
+    text-decoration: underline
+}

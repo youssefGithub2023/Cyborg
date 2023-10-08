@@ -1,0 +1,54 @@
+.show-users {
+    padding: 20px 100px
+}
+
+.show-users header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffa5a5;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.show-users header .users-count {
+
+}
+
+.show-users header .users-count .label {
+
+}
+
+.show-users header .users-count .count {
+
+}
+
+.show-users .users {
+
+}
+
+/* user card */
+
+.user-card {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: rgb(255, 187, 78);
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.user-card .user-info {
+
+}
+
+.user-card .user-info .user-id {
+    margin-right: 8px
+}
+
+.user-card .user-info .user-full-name {
+
+}
+
+.user-card .user-operations a {
+    margin-left: 12px
+}

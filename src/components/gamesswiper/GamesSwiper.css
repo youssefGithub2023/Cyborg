@@ -1,0 +1,60 @@
+.games-swiper {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: var(--distance-secondary) !important
+}
+
+.games-swiper > div { /* For get slides wrapper */
+    
+}
+
+.games-swiper .games-swiper-slide {
+    cursor: grab
+}
+
+.games-swiper .games-swiper-slide .game-card {
+    margin: 0 !important ;
+    border-radius: 0 !important
+}
+
+/* Start navigation properties */
+.games-swiper .swiper-button-next,
+.games-swiper .swiper-button-prev {
+    border: 2px solid var(--color-primary);
+    width: 24px;
+    height: 24px;
+    padding: var(--distance-small);
+    border-radius: 50%;
+    color: var(--color-primary);
+    transition: all .2s ease-in-out
+}
+.games-swiper .swiper-button-next {
+    right: 0
+}
+.games-swiper .swiper-button-prev {
+    left: 0
+}
+.games-swiper .swiper-button-next:hover,
+.games-swiper .swiper-button-prev:hover {
+    color: var(--color-lightest);
+    background-color: var(--color-primary);
+    border-color: var(--color-lightest)
+}
+.games-swiper .swiper-button-next:after,
+.games-swiper .swiper-button-prev:after {
+    font-size: 28px;
+}
+/* End navigation properties */
+
+/* Start pagination properties */
+.games-swiper .swiper-pagination {
+    bottom: 0 !important
+}
+.games-swiper .swiper-pagination .swiper-pagination-bullet {
+    background-color: var(--color-light)
+}
+.games-swiper .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--color-primary)
+}
+/* End pagination properties */

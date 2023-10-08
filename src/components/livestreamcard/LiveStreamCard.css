@@ -1,0 +1,32 @@
+.live-stream-card {
+    box-sizing: border-box;
+    padding: var(--distance-small);
+    border-radius: 20px;
+    flex-basis: calc(33.3333% - var(--distance-secondary));
+    border: 2px solid var(--color-light)
+}
+
+.live-stream-card figure {
+    background-color: var(--color-lightest);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+    font-size: 40px;
+    border: 6px double var(--color-primary)
+}
+
+.live-stream-card h3 {
+    margin: var(--distance-small) 0;
+    color: var(--color-lightest);
+    font-size: 24px
+}
+
+.live-stream-card p {
+    margin: 0;
+    color: var(--color-light);
+    line-height: 1.5em
+}

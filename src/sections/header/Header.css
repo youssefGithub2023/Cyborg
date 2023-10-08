@@ -1,0 +1,95 @@
+header {
+
+}
+
+header .container {
+    display: flex;
+    padding: var(--distance-secondary) 0;
+    align-items: center
+}
+
+header .container .l-i {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header .container .l-i .logo {
+    
+}
+
+header .container .l-i .logo a {
+    
+}
+
+header .container .l-i .logo img {
+    
+}
+
+header .container .l-i form.input-search {
+    padding: 4px;
+    border-radius: 26px;
+    background-color: var(--color-dark);
+}
+
+header .container .l-i form.input-search button,
+header .container .l-i form.input-search input {
+    background-color: transparent;
+    border: none;
+    color: var(--color-light)
+}
+
+header .container .l-i form.input-search button {
+    border-radius: 50%;
+    width: var(--distance-primary);
+    height: var(--distance-primary);
+    text-align: center;
+    font-size: 1.2em;
+    transition: all .3s ease-in-out;
+    color: var(--color-light) 
+}
+header .container .l-i form.input-search button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-lightest);
+}
+
+header .container .l-i form.input-search input {
+    width: 200px;
+    padding: 4px;
+    font-size: 1.2em;
+}
+
+header .container nav {
+    flex-basis: 50%;
+    margin-right: var(--distance-secondary)
+}
+
+header .container nav ul {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .container .mode {
+    width: 14px;
+    height: 34px;
+    background-image: linear-gradient(0, var(--color-lightest), var(--color-darkest));
+    border: 2px solid var(--color-primary);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: flex-end
+}
+
+header .container .mode.dark {
+    align-items: flex-start
+}
+
+header .container .mode .circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}

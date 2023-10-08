@@ -1,0 +1,30 @@
+.hero {
+    background-image: url(../../assests/imgs/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    padding: var(--distance-primary);
+    border-radius: var(--distance-secondary)
+}
+
+.hero .info {
+    width: 50%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.hero .info span.span-wel {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color-lightest)
+}
+
+.hero .info h1 {
+    font-size: 46px;
+    margin: 0;
+    color: var(--color-lightest);
+    text-transform: uppercase;
+    margin: var(--distance-small) 0
+}

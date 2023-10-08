@@ -1,0 +1,26 @@
+.section-wrapper {
+    box-sizing: border-box;
+    background-color: var(--color-darkest);
+    padding: var(--distance-primary);
+    border-radius: var(--distance-secondary);
+    margin-top: var(--distance-primary)
+}
+
+.section-wrapper:first-child {
+    margin-top: 0
+}
+
+/* className props values "w-bg" or "w-small"*/
+.section-wrapper.w-big,
+.section-wrapper.w-small {
+    margin: 0
+}
+
+.section-wrapper.w-big {
+    flex-basis: calc(60% - var(--distance-small));
+    width: calc(60% - var(--distance-small));
+}
+
+.section-wrapper.w-small {
+    flex-basis: calc(40% - var(--distance-small));
+}

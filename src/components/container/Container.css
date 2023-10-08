@@ -1,0 +1,10 @@
+.container {
+    width: calc(100% - var(--distance-primary) * 3);
+    margin: auto
+}
+
+.wrapper .container {
+    background-color: var(--color-dark);
+    padding: var(--distance-primary);
+    box-sizing: border-box
+}

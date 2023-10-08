@@ -1,0 +1,29 @@
+.btn {
+    width: max-content
+}
+
+.btn a {
+    display: inline-block;
+    padding: var(--distance-small) var(--distance-primary);
+    border-radius: 26px;
+    text-transform: capitalize;
+    font-size: 18px
+}
+
+.primary-btn {
+
+}
+
+.primary-btn a {
+    background-color: var(--color-primary);
+    color: var(--color-lightest);
+}
+
+.secondary-btn {
+
+}
+
+.secondary-btn a {
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary)
+}

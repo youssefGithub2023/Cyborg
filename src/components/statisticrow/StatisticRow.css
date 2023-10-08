@@ -1,0 +1,19 @@
+.statistic-row {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--distance-secondary) 0;
+    border-bottom: 2px solid var(--color-light)
+}
+
+.statistic-row:last-child {
+    border: none
+}
+
+.statistic-row span.text {
+    color: var(--color-light);
+    text-transform: capitalize;
+}
+
+.statistic-row span.count {
+    color: var(--color-primary)
+}

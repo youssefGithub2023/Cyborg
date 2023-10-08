@@ -1,0 +1,82 @@
+.top-downloaded-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--distance-secondary);
+    padding-bottom: var(--distance-secondary);
+    border-bottom: 2px solid var(--color-dark)
+}
+
+.top-downloaded-card .info-cont {
+    display: flex;
+    align-items: center
+}
+
+.top-downloaded-card .info-cont figure {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--distance-small);
+    margin-right: var(--distance-small)
+}
+
+.top-downloaded-card .info-cont figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-downloaded-card .info-cont ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.top-downloaded-card .info-cont ul li {
+    
+}
+
+.top-downloaded-card .info-cont ul li.game-name {
+    color: var(--color-lightest)
+}
+
+.top-downloaded-card .info-cont ul li.game-category {
+    color: var(--color-light)
+}
+
+.top-downloaded-card .info-cont ul li.game-rd {
+    
+}
+
+.top-downloaded-card .info-cont ul li.game-rd .rating {
+    margin-right: var(--distance-small)
+}
+
+.top-downloaded-card .info-cont ul li.game-rd .downloads {
+    
+}
+
+.top-downloaded-card .info-cont ul li.game-rd .icon {
+    color: var(--color-primary);
+    margin-right: 4px
+}
+
+.top-downloaded-card .info-cont ul li.game-rd .val {
+    color: var(--color-lightest)
+}
+
+.top-downloaded-card .download {
+    
+}
+
+.top-downloaded-card .download a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-color: var(--color-dark);
+    color: var(--color-primary);
+    border-radius: 50%
+}

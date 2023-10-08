@@ -1,0 +1,5 @@
+.section-title {
+    font-size: 32px;
+    text-transform: capitalize;
+    margin: 0 0 var(--distance-secondary) 0
+}

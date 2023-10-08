@@ -1,0 +1,7 @@
+.view-all-games {
+    text-align: center;
+}
+
+.view-all-games a {
+    color: var(--color-primary)
+}

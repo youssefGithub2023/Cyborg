@@ -1,0 +1,8 @@
+.live-strem {
+    padding: var(--distance-primary) 0;
+}
+
+.live-strem h2 {
+    text-align: center;
+    margin-bottom: var(--distance-primary) !important
+}
